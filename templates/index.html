@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <script src="static/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/api/" method="post" enctype="multipart/form-data">
+
+        <div class="input-group file-input" style="width: 30rem;">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile04"
+                    aria-describedby="inputGroupFileAddon04">
+                <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+            </div>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Button</button>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="colorbox" id='pri'>primary</div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="colorbox" id='sec'>secondary</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

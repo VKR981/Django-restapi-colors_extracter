@@ -1,0 +1,18 @@
+.file-input {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+.colorbox {
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 233, 227);
+}
